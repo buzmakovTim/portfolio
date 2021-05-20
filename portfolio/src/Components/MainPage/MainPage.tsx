@@ -4,7 +4,9 @@ import { Button, Checkbox, IconButton } from '@material-ui/core';
 
 export const MainPage = () => {
 
-    const greating = "Hello, I'm Timofey Buzmakov \n I'm a full-stuck software developer"
+    const greating = "hello ( I'm Timofey Buzmakov ) {" + 
+    "\nI'm a full-stuck software developer" + 
+    "\n}"
 
     return (
         <div className={c.container}>
@@ -14,7 +16,7 @@ export const MainPage = () => {
                     <h3 style={{whiteSpace: 'pre-line'}}>{greating}</h3>
                 </div>
                 <div>
-                    <Button style={{color: 'white', background: '#264469'}}>Portfolio</Button>
+                    <Button style={{color: 'white', background: '#264469'}}>My Work</Button>
                 </div>
                 
             </div>

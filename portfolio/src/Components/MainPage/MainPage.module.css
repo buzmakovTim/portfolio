@@ -6,14 +6,63 @@
     align-items: center;
 }
 
+/* Fade-in Effect for Centre Container Start */
 .centerContainer {
     width: 500px;
     height: 300px;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.219);
     border-radius: 10px;
     color: honeydew;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: left;
+
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Fade-in Effect for Centre Container End */
