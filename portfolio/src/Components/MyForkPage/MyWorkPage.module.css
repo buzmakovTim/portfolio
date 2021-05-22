@@ -1,13 +1,4 @@
-/* .container {
-    background-color: rgb(48, 52, 77);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* Fade-in Effect for Centre Container Start */
-.centerContainer {
+.mainMyWorkPage {
     width: 500px;
     height: 300px;
     /* border: 1px solid rgba(128, 128, 128, 0.219); */
@@ -64,13 +55,4 @@
     100% {
         opacity: 1;
     }
-}
-/* Fade-in Effect for Centre Container End */
-
-/* h3 {
-    font-family: 'Share Tech Mono', monospace;
-} */
-
-.mainTitle {
-    font-size: 1.4em;
 }
