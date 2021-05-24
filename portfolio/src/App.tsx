@@ -4,16 +4,22 @@ import './App.css';
 import { MainPage } from './Components/MainPage/MainPage';
 import MyWorkPage from './Components/MyForkPage/MyWorkPage';
 import { Redirect, Route } from 'react-router-dom';
+import { StateType } from './State/State';
 
-function App() {
+type AppPropsType = {
+  state: StateType
+}
+
+function App(props: AppPropsType) {
   return (
     <div className="App">
       
 
       <Route path="/index" render={() => <MainPage />} />
-      <Route path="/mywork" render={() => <MyWorkPage />} />
-      {/* <MainPage /> */}
-      <Redirect to="/index" />
+      <Route path="/mywork" render={() => <MyWorkPage myWork={props.state.myWork}/>} />
+      
+      {/* Set to default main page */}
+      <Redirect to="/index" /> 
     </div>
   );
 }

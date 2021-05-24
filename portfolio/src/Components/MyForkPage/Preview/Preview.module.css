@@ -1,0 +1,22 @@
+.previewContainer {
+    min-width: 500px;
+    min-height: 400px;
+    background-color: rgb(92, 128, 156);
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.previewContainer:hover {
+    min-width: 500px;
+    min-height: 400px;
+    background-color: rgb(132, 167, 194);
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(133, 133, 133, 0.19);
+    cursor: pointer;
+    color: red;
+}

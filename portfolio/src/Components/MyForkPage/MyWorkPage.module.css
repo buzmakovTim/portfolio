@@ -1,14 +1,15 @@
 .mainMyWorkPage {
-    width: 500px;
-    height: 300px;
+    /* width: 500px; */
+    /* height: 300px; */
     /* border: 1px solid rgba(128, 128, 128, 0.219); */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     color: honeydew;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: left;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* text-align: left; */
 
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
@@ -55,4 +56,20 @@
     100% {
         opacity: 1;
     }
+}
+
+.buttonPossition {
+    /* position: absolute; */
+    /* left: 10px; */
+    margin: 20px;
+    /* height: 100px; */
+    /* width: 100%; */
+    /* background-color: ivory; */
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
 }

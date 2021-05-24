@@ -1,14 +1,15 @@
 body {
     font-family: 'Share Tech Mono', monospace;
+    background-color: rgb(48, 52, 77);
 }
 
 .App {
     background-color: rgb(48, 52, 77);
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
 }
 
 .App-logo {
