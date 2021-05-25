@@ -17,7 +17,7 @@ export type StateType = {
 const State : StateType = {
 
     myWork : [
-        {
+     {
             id: v1(),
             title : 'Check Weight',
             description: 'Description about check weight project',

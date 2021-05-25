@@ -9,8 +9,8 @@ export const Ditailed = (props: DitailedPropsType) => {
 
     return (
         <div>
-            Ditailed
-
+            <h2>{props.preview.title}</h2>
+            {/* {alert(props.preview.id)} */}
         </div>
     )
 }
