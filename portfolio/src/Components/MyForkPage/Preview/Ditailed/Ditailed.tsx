@@ -1,5 +1,6 @@
 import React from 'react'
 import { MyWorkType } from '../../../../State/State'
+import c from './Ditailed.module.css'
 
 type DitailedPropsType = {
     preview: MyWorkType
@@ -8,9 +9,10 @@ type DitailedPropsType = {
 export const Ditailed = (props: DitailedPropsType) => {
 
     return (
-        <div>
+        <div className={c.mainContainer}>
             <h2>{props.preview.title}</h2>
-            {/* {alert(props.preview.id)} */}
+            
+            
         </div>
     )
 }

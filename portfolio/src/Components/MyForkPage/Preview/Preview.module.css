@@ -1,19 +1,20 @@
 .previewContainer {
     min-width: 500px;
-    min-height: 400px;
+    min-height: 440px;
     background-color: rgb(92, 128, 156);
     margin: 30px;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
     font-family: 'Nunito', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
     text-align: center;
+    opacity: 70%;
 }
 
 .previewContainer:hover {
     min-width: 500px;
-    min-height: 400px;
+    min-height: 440px;
     background-color: rgb(132, 167, 194);
     margin: 30px;
     border-radius: 10px;
@@ -21,12 +22,14 @@
         0 6px 20px 0 rgba(133, 133, 133, 0.19);
     /* cursor: pointer; */
     /* color: red; */
+    opacity: 100%;
 }
 
 .title {
     font-size: 1.5em;
     font-weight: 600;
     color: white;
+    padding: 10px 0;
 }
 
 .seeMore {
@@ -39,4 +42,29 @@
 
 .inactive {
     color: white;
+}
+
+.imageContainer {
+    background-color: rgb(228, 228, 228);
+    min-height: 250px;
+    padding: 0;
+}
+.imageContainer img {
+    margin: 0 0 -6px 0;
+}
+
+.descriptionContainer {
+    min-width: 100%;
+    min-height: 70px;
+    background-color: white;
+    color: black;
+}
+
+.moreInfo {
+    position: absolute;
+    color: white;
+    font-size: 0.9em;
+    bottom: 5px;
+    min-width: 100%;
+    text-align: center;
 }

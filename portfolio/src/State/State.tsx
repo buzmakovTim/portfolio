@@ -1,6 +1,6 @@
 import React from 'react'
 import { v1 } from 'uuid';
-
+import checkWeightPic from '../img/checkWeight.png'
 
 export type MyWorkType = {
         id: string
@@ -21,28 +21,28 @@ const State : StateType = {
             id: v1(),
             title : 'Check Weight',
             description: 'Description about check weight project',
-            urlImage: '...',
+            urlImage: checkWeightPic,
             gitHubLink: '...'
         },
         {
             id: v1(),
             title : 'ToDoList',
             description: 'Description about check weight project',
-            urlImage: '...',
+            urlImage: checkWeightPic,
             gitHubLink: '...'
         },
         {
             id: v1(),
             title : 'Social Network',
             description: 'Description about check weight project',
-            urlImage: '...',
+            urlImage: checkWeightPic,
             gitHubLink: '...'
         },
         {
             id: v1(),
             title : 'Other Project',
             description: 'Description about check weight project',
-            urlImage: '...',
+            urlImage: checkWeightPic,
             gitHubLink: '...'
         }
     ]

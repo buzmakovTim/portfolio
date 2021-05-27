@@ -22,16 +22,26 @@ export const Preview = (props: PreviewPropsType) => {
         <NavLink to={path} style={{textDecoration: 'none'}} onClick={setForDitailed}>
             <div className={c.previewContainer}>
                 
+                {/* Title container */}
                 <div className={c.title}>
                     {props.preview.title}
                 </div>
                 
-                
-                {/* <div className={c.seeMore}>
-                    <NavLink to={path} onClick={setForDitailed} style={{textDecoration: 'none'}}>
-                        See More
-                    </NavLink>
-                </div> */}
+                {/* Image container */}
+                <div className={c.imageContainer}>
+                    <img src={props.preview.urlImage} alt="" width={500}/>
+                </div>
+
+                {/* Short Description container */}
+                <div className={c.descriptionContainer}>
+                     {props.preview.description}
+                </div>
+
+                {/* Click for more Info container */}
+                <div className={c.moreInfo}>
+                    <span>Click here for more info</span>
+                    
+                </div>
             </div>
         </NavLink>
             
