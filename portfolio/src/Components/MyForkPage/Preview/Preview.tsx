@@ -23,18 +23,21 @@ export const Preview = (props: PreviewPropsType) => {
             <div className={c.previewContainer}>
                 
                 {/* Title container */}
-                <div className={c.title}>
+                <div className={c.titleContainer}>
                     {props.preview.title}
                 </div>
                 
                 {/* Image container */}
                 <div className={c.imageContainer}>
-                    <img src={props.preview.urlImage} alt="" width={500}/>
+                    <img src={props.preview.urlImage} alt=""/>
                 </div>
 
                 {/* Short Description container */}
                 <div className={c.descriptionContainer}>
-                     {props.preview.description}
+                     <div className={c.description}>
+                        {props.preview.shortDescription}
+                     </div>
+                     
                 </div>
 
                 {/* Click for more Info container */}
