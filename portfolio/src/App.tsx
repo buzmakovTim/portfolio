@@ -18,6 +18,10 @@ function App(props: AppPropsType) {
       <Route path="/index" render={() => <MainPage />} />
       <Route path="/mywork" render={() => <MyWorkPage myWork={props.state.myWork}/>} />
       
+      <div>
+        {/* Footer with Links */}
+      </div>
+
       {/* Set to default main page */}
       <Redirect to="/index" /> 
     </div>
